@@ -75,6 +75,10 @@ body {
     margin-bottom: 35px;
 }
 
+.personal-info{
+
+}
+
 .personal-info__title {
     display: inline-block;
     margin: 0;
@@ -98,6 +102,50 @@ body {
 }
 
 .personal-info__text_bold {
+    font-weight: bold;
+}
+
+.experience{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.experience__item{
+    padding: 40px 0 30px 0;
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #1a1a1a;
+    font-family: "Century Gothic";
+    font-style: italic;;
+}
+
+.experience__item__function {
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #1a1a1a;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+.experiece__item__compony_link{
+    display: block;
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #1a1a1a;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+.experience__item__description{
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #1a1a1a;
+    font-family: "Century Gothic";
     font-weight: bold;
 }
 
